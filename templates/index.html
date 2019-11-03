@@ -1,0 +1,87 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ SITE_NAME }}</title>
+    <link href="{% static 'css/mdui.css' %} " rel="stylesheet">
+</head>
+<body class="mdui-theme-primary-green mdui-theme-accent-green">
+<div class="mdui-appbar">
+    <div class="mdui-toolbar mdui-color-green-600 mdui-text-color-white">
+        <a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">menu</i></a>
+        <a href="javascript:;" class="mdui-typo-headline">{{ SITE_NAME }}</a>
+        <a href="javascript:;" class="mdui-typo-title">{{ SITE_DESC }}</a>
+        <div class="mdui-toolbar-spacer"></div>
+    </div>
+    <div class="mdui-tab mdui-color-green-100 mdui-tab-centered" mdui-tab>
+        {% for link in LinkList %}
+            <a href="{{ link.href }}" class="mdui-ripple mdui-ripple-white {{ link.active }}">{{ link.title }}</a>
+        {% endfor %}
+    </div>
+</div>
+<div class="mdui-container">
+    {% if not ArticleList and not Context %}
+        <strong>未找到任何内容</strong>
+    {% endif %}
+    {% if content %}
+        <div id="content" class="">
+            <div class="mdui-card mdui-m-a-2 mdui-shadow-6">
+                <!-- 卡片头部，包含头像、标题、副标题 -->
+                <div class="mdui-card-header">
+                    <img class="mdui-card-header-avatar" src="{% static ''%}{{ content.header }}"/>
+                    <div class="mdui-card-header-title">用户: {{ content.nick }}</div>
+                    <div class="mdui-card-header-subtitle">邮箱: {{ content.email }}</div>
+                    <br>
+                    <div class="mdui-chip mdui-m-r-1">
+                        <span class="mdui-chip-title">{{ content.tags }}</span>
+                    </div>
+                    <strong>[{{ content.catagory }}]{{ content.title }}</strong>
+                </div>
+                <div class="mdui-card-primary">
+                    <button class="mdui-btn mdui-btn-block mdui-m-t-2">正在浏览此文章</button>
+                </div>
+                <div class="mdui-divider"></div>
+                <!-- 卡片的内容 -->
+                <div class="mdui-card-content mdui-typo mdui-m-a-1">
+                    {% autoescape on %}
+                    {{ content.text }}
+                    {% endautoescape %}
+                </div>
+            </div>
+        </div>
+    {% endif %}
+    <div id="article">
+        {% for article in ArticleList %}
+            {% if article.id != content.id %}
+                <a href="/catagory/{{ article.catagory }}/{{ article.id }}-{{ article.title }}" style="text-decoration: none;">
+                    <div class="mdui-card mdui-m-a-2 mdui-hoverable mdui-ripple">
+                        <!-- 卡片头部，包含头像、标题、副标题 -->
+                        <div class="mdui-card-header">
+                            <img class="mdui-card-header-avatar" src="{% static ''%}{{ article.header }}"/>
+                            <div class="mdui-card-header-title">用户: {{ article.nick }}</div>
+                            <div class="mdui-card-header-subtitle">邮箱: {{ article.email }}</div>
+                            <br>
+                            <div class="mdui-chip mdui-m-r-1">
+                                <span class="mdui-chip-title">{{ article.tags }}</span>
+                            </div>
+                            <strong>[{{ article.catagory }}]{{ article.title }}</strong>
+                        </div>
+                        <!-- 卡片的标题和副标题 -->
+                        <div class="mdui-card-primary">
+
+                        </div>
+                        <div class="mdui-divider"></div>
+                        <!-- 卡片的内容 -->
+                        <div class="mdui-card-content">描述:{{ article.desc }}</div>
+                    </div>
+                </a>
+
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
+{{ paths }}
+<script src="{% static 'js/mdui.js' %}"></script>
+</body>
+</html>

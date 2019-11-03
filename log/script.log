@@ -1,0 +1,1027 @@
+2019-10-31 18:23:16,923 [Thread-5:5876] [django.request:228] [log:log_response] [WARNING]- Not Found: /avatar.jpg
+2019-10-31 18:23:16,929 [Thread-6:3768] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 18:24:01,446 [Thread-6:3768] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 18:27:50,023 [Thread-1:6980] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 18:27:50,851 [Thread-1:6980] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 18:32:55,476 [Thread-1:5088] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 18:34:07,677 [Thread-1:6488] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 18:34:08,454 [Thread-1:6488] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 18:34:08,633 [Thread-1:6488] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 18:34:08,891 [Thread-1:6488] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 18:45:57,419 [Thread-3:2156] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 18:45:57,427 [Thread-1:1044] [django.request:228] [log:log_response] [WARNING]- Not Found: /avatar.jpg
+2019-10-31 18:46:23,564 [Thread-1:1044] [django.request:228] [log:log_response] [WARNING]- Not Found: /avatar/default.png
+2019-10-31 18:46:23,569 [Thread-3:2156] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 18:46:24,062 [Thread-3:2156] [django.request:228] [log:log_response] [WARNING]- Not Found: /avatar/default.png
+2019-10-31 18:46:24,075 [Thread-1:1044] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 18:46:24,200 [Thread-1:1044] [django.request:228] [log:log_response] [WARNING]- Not Found: /avatar/default.png
+2019-10-31 18:46:24,210 [Thread-3:2156] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 18:46:56,181 [Thread-3:2156] [django.request:228] [log:log_response] [WARNING]- Not Found: /avatar/default.png
+2019-10-31 18:46:56,188 [Thread-1:1044] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 18:51:26,743 [Thread-2:1556] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 18:51:26,752 [Thread-1:6624] [django.request:228] [log:log_response] [WARNING]- Not Found: /avatar/default.png
+2019-10-31 18:51:47,003 [Thread-1:6616] [django.request:228] [log:log_response] [WARNING]- Not Found: /avatar/default.png
+2019-10-31 18:51:47,011 [Thread-2:6024] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 18:52:01,528 [Thread-1:6740] [django.request:228] [log:log_response] [WARNING]- Not Found: /avatar/default.png
+2019-10-31 18:52:01,552 [Thread-1:6740] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 18:52:14,484 [Thread-1:6576] [django.request:228] [log:log_response] [WARNING]- Not Found: /avatar/default.png
+2019-10-31 18:52:14,509 [Thread-2:5536] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 18:53:54,545 [Thread-1:6576] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 18:53:54,552 [Thread-2:5536] [django.request:228] [log:log_response] [WARNING]- Not Found: /avatar/default.png
+2019-10-31 18:54:09,164 [Thread-2:5536] [django.request:228] [log:log_response] [WARNING]- Not Found: /avatar/default.png
+2019-10-31 18:54:09,173 [Thread-1:6576] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 18:54:09,770 [Thread-1:6576] [django.request:228] [log:log_response] [WARNING]- Not Found: /avatar/default.png
+2019-10-31 18:54:09,779 [Thread-2:5536] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 18:54:09,941 [Thread-1:6576] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 18:54:09,960 [Thread-2:5536] [django.request:228] [log:log_response] [WARNING]- Not Found: /avatar/default.png
+2019-10-31 18:54:10,133 [Thread-2:5536] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 18:54:10,140 [Thread-1:6576] [django.request:228] [log:log_response] [WARNING]- Not Found: /avatar/default.png
+2019-10-31 18:54:12,845 [Thread-1:6576] [django.request:228] [log:log_response] [WARNING]- Not Found: /avatar/default.png
+2019-10-31 18:56:27,852 [Thread-1:6576] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 36, in index
+    return render(request, 'index.html',{'ArticleList': ArticleList})
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\template\defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\templatetags\static.py", line 106, in render
+    url = self.url(context)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\templatetags\static.py", line 103, in url
+    return self.handle_simple(path)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\templatetags\static.py", line 118, in handle_simple
+    return staticfiles_storage.url(path)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\files\storage.py", line 331, in url
+    url = filepath_to_uri(name)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\utils\encoding.py", line 252, in filepath_to_uri
+    return quote(path.replace("\\", "/"), safe="/~!*()'")
+AttributeError: 'ImageFieldFile' object has no attribute 'replace'
+2019-10-31 18:56:43,917 [Thread-2:5536] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 18:57:17,680 [Thread-1:6576] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 18:57:19,068 [Thread-1:6576] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 18:57:19,871 [Thread-1:6576] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 18:57:20,109 [Thread-1:6576] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 18:57:20,393 [Thread-1:6576] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 18:57:28,119 [Thread-1:6576] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 18:58:26,260 [Thread-2:5536] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 19:01:33,033 [Thread-1:6576] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 19:01:45,828 [Thread-1:6576] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 19:04:07,529 [Thread-2:5536] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 19:04:13,042 [Thread-2:5536] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 19:04:51,947 [Thread-2:5536] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 19:06:28,534 [Thread-1:6576] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 19:07:11,198 [Thread-1:6576] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 19:07:18,397 [Thread-1:6576] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 19:07:36,278 [Thread-1:6576] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 19:08:10,354 [Thread-2:5536] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 19:08:19,885 [Thread-2:5536] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 19:08:20,356 [Thread-2:5536] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 19:08:20,528 [Thread-2:5536] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 19:08:26,194 [Thread-2:5536] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 19:08:26,584 [Thread-2:5536] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 19:08:26,775 [Thread-2:5536] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 19:08:26,927 [Thread-2:5536] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 19:08:27,102 [Thread-2:5536] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 19:10:18,911 [Thread-3:4364] [django.request:228] [log:log_response] [WARNING]- Bad Request: /
+2019-10-31 19:10:19,530 [Thread-4:5912] [django.request:228] [log:log_response] [WARNING]- Bad Request: /favicon.ico
+2019-10-31 19:13:32,557 [Thread-3:5888] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 19:13:33,497 [Thread-4:6044] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-10-31 19:15:37,081 [Thread-1:5536] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 19:15:44,614 [Thread-1:5536] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 19:16:22,484 [Thread-1:5536] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 19:16:27,136 [Thread-1:5536] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 19:22:29,111 [Thread-6:6980] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 19:22:29,744 [Thread-6:6980] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 19:22:58,770 [Thread-7:5884] [django.request:228] [log:log_response] [WARNING]- Bad Request: /
+2019-10-31 19:23:06,128 [Thread-9:6696] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 19:23:16,010 [Thread-2:6308] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 19:23:43,072 [Thread-2:6308] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 19:23:43,684 [Thread-2:6308] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 19:23:43,950 [Thread-2:6308] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 19:23:44,158 [Thread-2:6308] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 19:23:56,702 [Thread-2:6308] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 19:23:57,205 [Thread-2:6308] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 19:23:57,344 [Thread-2:6308] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 19:23:57,477 [Thread-2:6308] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 19:25:54,293 [Thread-2:6308] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 19:30:11,899 [Thread-2:6308] [django.request:228] [log:log_response] [WARNING]- Not Found: /card.jpg
+2019-10-31 20:40:16,543 [Thread-3:7864] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-10-31 20:40:26,613 [Thread-3:7864] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-01 10:09:30,456 [Thread-7:2564] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-01 10:09:34,384 [Thread-7:2564] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-01 10:09:35,288 [Thread-7:2564] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-01 10:09:35,582 [Thread-9:1900] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-01 10:09:35,811 [Thread-9:1900] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-01 10:09:36,017 [Thread-9:1900] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-01 10:09:36,237 [Thread-9:1900] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-01 10:09:36,686 [Thread-9:1900] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-01 10:09:40,039 [Thread-9:1900] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-01 10:09:41,218 [Thread-9:1900] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-01 10:09:42,141 [Thread-11:6176] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-01 10:09:42,527 [Thread-11:6176] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-01 10:09:43,072 [Thread-8:4844] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-01 10:09:43,342 [Thread-8:4844] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-01 10:09:43,995 [Thread-8:4844] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-01 11:01:25,959 [Thread-5:5912] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-01 11:21:23,221 [Thread-1:3680] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /admin/Blog/link/
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "E:\workspace\blog_project_venv\lib\site-packages\MySQLdb\cursors.py", line 209, in execute
+    res = self._query(query)
+  File "E:\workspace\blog_project_venv\lib\site-packages\MySQLdb\cursors.py", line 315, in _query
+    db.query(q)
+  File "E:\workspace\blog_project_venv\lib\site-packages\MySQLdb\connections.py", line 226, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.ProgrammingError: (1146, "Table 'blog.blog_link' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\options.py", line 606, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 223, in inner
+    return view(request, *args, **kwargs)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\utils\decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\options.py", line 1672, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\options.py", line 744, in get_changelist_instance
+    sortable_by,
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\views\main.py", line 82, in __init__
+    self.get_results(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\views\main.py", line 210, in get_results
+    result_count = paginator.count
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\paginator.py", line 91, in count
+    return c()
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\db\models\query.py", line 392, in count
+    return self.query.get_count(using=self.db)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\db\models\sql\query.py", line 504, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\db\models\sql\query.py", line 489, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\db\models\sql\compiler.py", line 1100, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "E:\workspace\blog_project_venv\lib\site-packages\MySQLdb\cursors.py", line 209, in execute
+    res = self._query(query)
+  File "E:\workspace\blog_project_venv\lib\site-packages\MySQLdb\cursors.py", line 315, in _query
+    db.query(q)
+  File "E:\workspace\blog_project_venv\lib\site-packages\MySQLdb\connections.py", line 226, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'blog.blog_link' doesn't exist")
+2019-11-01 11:44:59,568 [Thread-2:6984] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-01 11:45:45,804 [Thread-4:7396] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-01 11:50:17,257 [Thread-14:5352] [django.request:228] [log:log_response] [WARNING]- Bad Request: /
+2019-11-01 11:50:18,545 [Thread-15:3924] [django.request:228] [log:log_response] [WARNING]- Bad Request: /
+2019-11-01 11:50:18,820 [Thread-16:5152] [django.request:228] [log:log_response] [WARNING]- Bad Request: /
+2019-11-01 11:50:19,059 [Thread-17:7468] [django.request:228] [log:log_response] [WARNING]- Bad Request: /
+2019-11-01 11:50:19,250 [Thread-18:6604] [django.request:228] [log:log_response] [WARNING]- Bad Request: /
+2019-11-01 11:50:19,470 [Thread-19:5000] [django.request:228] [log:log_response] [WARNING]- Bad Request: /
+2019-11-01 11:50:19,660 [Thread-20:7932] [django.request:228] [log:log_response] [WARNING]- Bad Request: /
+2019-11-01 11:50:19,865 [Thread-21:7524] [django.request:228] [log:log_response] [WARNING]- Bad Request: /
+2019-11-01 11:50:20,083 [Thread-22:6964] [django.request:228] [log:log_response] [WARNING]- Bad Request: /
+2019-11-01 11:50:20,350 [Thread-23:6320] [django.request:228] [log:log_response] [WARNING]- Bad Request: /
+2019-11-01 11:50:20,547 [Thread-24:4656] [django.request:228] [log:log_response] [WARNING]- Bad Request: /
+2019-11-01 11:50:20,862 [Thread-25:2220] [django.request:228] [log:log_response] [WARNING]- Bad Request: /
+2019-11-01 11:50:21,034 [Thread-26:8136] [django.request:228] [log:log_response] [WARNING]- Bad Request: /
+2019-11-01 11:50:37,893 [Thread-1:2556] [django.request:228] [log:log_response] [WARNING]- Bad Request: /
+2019-11-01 14:07:57,220 [Thread-5:5512] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-01 14:07:57,910 [Thread-3:2764] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-01 14:29:16,295 [Thread-1:6488] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 55, in index
+    return render(request, 'index.html',{'ArticleList': ArticleList, 'LinkList': getNav()})
+  File "E:\workspace\blog_project\Blog\views.py", line 22, in getNav
+    'href': './catagory/'+catagory.index
+TypeError: can only concatenate str (not "int") to str
+2019-11-01 14:29:39,621 [Thread-1:4152] [django.request:228] [log:log_response] [WARNING]- Not Found: /catagory/999
+2019-11-01 14:29:53,275 [Thread-1:1304] [django.request:228] [log:log_response] [WARNING]- Not Found: /catagory/999
+2019-11-01 14:29:53,959 [Thread-1:1304] [django.request:228] [log:log_response] [WARNING]- Not Found: /catagory/999
+2019-11-01 14:29:54,092 [Thread-1:1304] [django.request:228] [log:log_response] [WARNING]- Not Found: /catagory/999
+2019-11-01 14:29:58,873 [Thread-1:1304] [django.request:228] [log:log_response] [WARNING]- Not Found: /catagory/1
+2019-11-01 14:30:21,329 [Thread-1:7988] [django.request:228] [log:log_response] [WARNING]- Not Found: /catagory/闲聊
+2019-11-01 14:33:58,304 [Thread-1:7636] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/闲聊
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 58, in catagory
+    return render(request, 'catagory.html', {})
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: catagory.html
+2019-11-01 14:34:06,198 [Thread-1:7636] [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-11-01 14:34:10,909 [Thread-1:7636] [django.request:228] [log:log_response] [WARNING]- Not Found: /
+2019-11-01 14:34:28,766 [Thread-1:5584] [django.request:228] [log:log_response] [WARNING]- Not Found: /AWD
+2019-11-01 14:34:33,852 [Thread-1:5584] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/闲聊
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 58, in catagory
+    return render(request, 'catagory.html', {})
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: catagory.html
+2019-11-01 14:34:38,588 [Thread-1:5584] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 58, in catagory
+    return render(request, 'catagory.html', {})
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: catagory.html
+2019-11-01 14:46:31,511 [Thread-1:6584] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/闲聊
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\utils\datastructures.py", line 78, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'catagory'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 59, in catagory
+    return render(request, 'index.html', {'LinkList': getNav(), 'req': request.GET['catagory']})
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\utils\datastructures.py", line 80, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'catagory'
+2019-11-01 14:46:31,953 [Thread-1:6584] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/闲聊
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\utils\datastructures.py", line 78, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'catagory'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 59, in catagory
+    return render(request, 'index.html', {'LinkList': getNav(), 'req': request.GET['catagory']})
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\utils\datastructures.py", line 80, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'catagory'
+2019-11-01 14:46:42,230 [Thread-1:5108] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/闲聊
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\utils\datastructures.py", line 78, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: '/catagory'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 59, in catagory
+    return render(request, 'index.html', {'LinkList': getNav(), 'req': request.GET['/catagory']})
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\utils\datastructures.py", line 80, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: '/catagory'
+2019-11-01 14:46:42,946 [Thread-1:5108] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/闲聊
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\utils\datastructures.py", line 78, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: '/catagory'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 59, in catagory
+    return render(request, 'index.html', {'LinkList': getNav(), 'req': request.GET['/catagory']})
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\utils\datastructures.py", line 80, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: '/catagory'
+2019-11-01 14:46:43,151 [Thread-1:5108] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/闲聊
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\utils\datastructures.py", line 78, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: '/catagory'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 59, in catagory
+    return render(request, 'index.html', {'LinkList': getNav(), 'req': request.GET['/catagory']})
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\utils\datastructures.py", line 80, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: '/catagory'
+2019-11-01 14:46:43,340 [Thread-1:5108] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/闲聊
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\utils\datastructures.py", line 78, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: '/catagory'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 59, in catagory
+    return render(request, 'index.html', {'LinkList': getNav(), 'req': request.GET['/catagory']})
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\utils\datastructures.py", line 80, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: '/catagory'
+2019-11-01 14:48:01,844 [Thread-1:8024] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/闲聊
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\utils\datastructures.py", line 78, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'catagory'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 59, in catagory
+    return render(request, 'index.html', {'LinkList': getNav(), 'req': request.GET['catagory']})
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\utils\datastructures.py", line 80, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'catagory'
+2019-11-01 14:48:10,210 [Thread-1:8024] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\utils\datastructures.py", line 78, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'catagory'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 59, in catagory
+    return render(request, 'index.html', {'LinkList': getNav(), 'req': request.GET['catagory']})
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\utils\datastructures.py", line 80, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'catagory'
+2019-11-01 14:48:27,223 [Thread-1:8024] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\utils\datastructures.py", line 78, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'catagory'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 59, in catagory
+    return render(request, 'index.html', {'LinkList': getNav(), 'req': request.GET['catagory']})
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\utils\datastructures.py", line 80, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'catagory'
+2019-11-01 14:48:31,546 [Thread-1:8024] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\utils\datastructures.py", line 78, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'catagory'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 59, in catagory
+    return render(request, 'index.html', {'LinkList': getNav(), 'req': request.GET['catagory']})
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\utils\datastructures.py", line 80, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'catagory'
+2019-11-01 14:53:42,406 [Thread-7:5648] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-01 14:53:43,530 [Thread-8:5892] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-01 14:53:43,862 [Thread-4:2452] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-01 15:07:41,673 [Thread-1:8036] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/闲聊
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 63, in catagory
+    return render(request, 'index.html', {'LinkList': getNav(paths[len(paths)])})
+IndexError: list index out of range
+2019-11-01 15:16:25,479 [Thread-1:7696] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/闲聊
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 64, in catagory
+    return render(request, 'index.html', {'LinkList': getNav(paths[len(paths)-1])})
+  File "E:\workspace\blog_project\Blog\views.py", line 32, in getNav
+    'active': 'mdui-tab-active' if catagory.title == title else ''
+AttributeError: 'Catagory' object has no attribute 'title'
+2019-11-01 15:21:20,037 [Thread-1:7828] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/闲聊
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 66, in catagory
+    return render(request, 'index.html', {'LinkList': getNav(request.path)})
+  File "E:\workspace\blog_project\Blog\views.py", line 34, in getNav
+    'active': 'mdui-tab-active' if catagory.title == path[len(path)-1] else ''
+AttributeError: 'Catagory' object has no attribute 'title'
+2019-11-01 15:21:20,956 [Thread-1:7828] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/闲聊
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 66, in catagory
+    return render(request, 'index.html', {'LinkList': getNav(request.path)})
+  File "E:\workspace\blog_project\Blog\views.py", line 34, in getNav
+    'active': 'mdui-tab-active' if catagory.title == path[len(path)-1] else ''
+AttributeError: 'Catagory' object has no attribute 'title'
+2019-11-01 15:21:21,231 [Thread-1:7828] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/闲聊
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 66, in catagory
+    return render(request, 'index.html', {'LinkList': getNav(request.path)})
+  File "E:\workspace\blog_project\Blog\views.py", line 34, in getNav
+    'active': 'mdui-tab-active' if catagory.title == path[len(path)-1] else ''
+AttributeError: 'Catagory' object has no attribute 'title'
+2019-11-01 15:21:21,339 [Thread-1:7828] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/闲聊
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 66, in catagory
+    return render(request, 'index.html', {'LinkList': getNav(request.path)})
+  File "E:\workspace\blog_project\Blog\views.py", line 34, in getNav
+    'active': 'mdui-tab-active' if catagory.title == path[len(path)-1] else ''
+AttributeError: 'Catagory' object has no attribute 'title'
+2019-11-01 15:21:21,571 [Thread-1:7828] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/闲聊
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 66, in catagory
+    return render(request, 'index.html', {'LinkList': getNav(request.path)})
+  File "E:\workspace\blog_project\Blog\views.py", line 34, in getNav
+    'active': 'mdui-tab-active' if catagory.title == path[len(path)-1] else ''
+AttributeError: 'Catagory' object has no attribute 'title'
+2019-11-01 15:21:21,630 [Thread-2:6164] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/闲聊
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 66, in catagory
+    return render(request, 'index.html', {'LinkList': getNav(request.path)})
+  File "E:\workspace\blog_project\Blog\views.py", line 34, in getNav
+    'active': 'mdui-tab-active' if catagory.title == path[len(path)-1] else ''
+AttributeError: 'Catagory' object has no attribute 'title'
+2019-11-01 15:21:36,219 [Thread-2:6164] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/闲聊
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 66, in catagory
+    return render(request, 'index.html', {'LinkList': getNav(request.path)})
+  File "E:\workspace\blog_project\Blog\views.py", line 34, in getNav
+    'active': 'mdui-tab-active' if catagory.name == path[len(path)-1] else ''
+AttributeError: 'Catagory' object has no attribute 'title'
+2019-11-01 16:41:31,672 [Thread-1:3864] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/公告
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 71, in catagory
+    return render(request, 'index.html', {'ArticleList': getArticle(paths[len(paths)-1]),'LinkList': getNav(request.path)})
+  File "E:\workspace\blog_project\Blog\views.py", line 28, in getNav
+    ReuCatagory = Catagory.objects.filter(isLink=True).order_by(index) # 获取要显示在导航栏的分类
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\db\models\query.py", line 1074, in order_by
+    obj.query.add_ordering(*field_names)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\db\models\sql\query.py", line 1804, in add_ordering
+    if not hasattr(item, 'resolve_expression') and not ORDER_PATTERN.match(item):
+TypeError: expected string or bytes-like object
+2019-11-01 16:41:32,404 [Thread-1:3864] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/公告
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 71, in catagory
+    return render(request, 'index.html', {'ArticleList': getArticle(paths[len(paths)-1]),'LinkList': getNav(request.path)})
+  File "E:\workspace\blog_project\Blog\views.py", line 28, in getNav
+    ReuCatagory = Catagory.objects.filter(isLink=True).order_by(index) # 获取要显示在导航栏的分类
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\db\models\query.py", line 1074, in order_by
+    obj.query.add_ordering(*field_names)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\db\models\sql\query.py", line 1804, in add_ordering
+    if not hasattr(item, 'resolve_expression') and not ORDER_PATTERN.match(item):
+TypeError: expected string or bytes-like object
+2019-11-01 16:54:58,545 [Thread-1:2644] [django.request:228] [log:log_response] [WARNING]- Not Found: /公告/-PYTHON的第一篇文章n
+2019-11-01 16:55:03,555 [Thread-1:2644] [django.request:228] [log:log_response] [WARNING]- Not Found: /公告/-PYTHON的第一篇文章n
+2019-11-01 17:00:47,749 [Thread-1:2420] [django.request:228] [log:log_response] [WARNING]- Not Found: /awd/闲聊/3-akwhdjawdk
+2019-11-01 17:11:41,373 [Thread-1:7584] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/闲聊/2-文章二
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 88, in catagory
+    return render(request, 'index.html', {'content': content, 'ArticleList': getArticle(paths[1]),'LinkList': getNav(request.path)})
+UnboundLocalError: local variable 'content' referenced before assignment
+2019-11-01 17:13:26,853 [Thread-1:5880] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/闲聊/2-文章二
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 73, in catagory
+    articles = Article.objects.filter(id=paths[4].split('-')[0])
+IndexError: list index out of range
+2019-11-01 17:14:15,187 [Thread-1:7132] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/闲聊/3-akwhdjawdk
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 89, in catagory
+    return render(request, 'index.html', {'content': content, 'ArticleList': getArticle(paths[1]),'LinkList': getNav(request.path)})
+UnboundLocalError: local variable 'content' referenced before assignment
+2019-11-01 17:15:40,276 [Thread-1:6844] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/公告/1-PYTHON的第一篇文章n
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 73, in catagory
+    articles = Article.objects.filter(id=paths[4].split('-')[0])
+IndexError: list index out of range
+2019-11-01 17:15:46,984 [Thread-1:364] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/公告/1-PYTHON的第一篇文章n
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 73, in catagory
+    articles = Article.objects.filter(id=paths[4].split('-')[0])[0]
+IndexError: list index out of range
+2019-11-01 17:15:47,662 [Thread-1:364] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/公告/1-PYTHON的第一篇文章n
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 73, in catagory
+    articles = Article.objects.filter(id=paths[4].split('-')[0])[0]
+IndexError: list index out of range
+2019-11-01 17:15:47,914 [Thread-1:364] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/公告/1-PYTHON的第一篇文章n
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 73, in catagory
+    articles = Article.objects.filter(id=paths[4].split('-')[0])[0]
+IndexError: list index out of range
+2019-11-01 17:15:47,963 [Thread-2:7528] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/公告/1-PYTHON的第一篇文章n
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 73, in catagory
+    articles = Article.objects.filter(id=paths[4].split('-')[0])[0]
+IndexError: list index out of range
+2019-11-01 17:15:50,519 [Thread-2:7528] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/公告/1-PYTHON的第一篇文章n
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 73, in catagory
+    articles = Article.objects.filter(id=paths[4].split('-')[0])[0]
+IndexError: list index out of range
+2019-11-01 17:16:31,837 [Thread-1:5840] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/公告/1-PYTHON的第一篇文章n
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 73, in catagory
+    Reuarticle = Article.objects.filter(id=paths[4].split('-')[0])
+IndexError: list index out of range
+2019-11-01 17:16:32,506 [Thread-1:5840] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/公告/1-PYTHON的第一篇文章n
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 73, in catagory
+    Reuarticle = Article.objects.filter(id=paths[4].split('-')[0])
+IndexError: list index out of range
+2019-11-01 17:16:32,737 [Thread-1:5840] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/公告/1-PYTHON的第一篇文章n
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 73, in catagory
+    Reuarticle = Article.objects.filter(id=paths[4].split('-')[0])
+IndexError: list index out of range
+2019-11-01 17:16:33,003 [Thread-1:5840] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/公告/1-PYTHON的第一篇文章n
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 73, in catagory
+    Reuarticle = Article.objects.filter(id=paths[4].split('-')[0])
+IndexError: list index out of range
+2019-11-01 17:16:33,058 [Thread-2:688] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/公告/1-PYTHON的第一篇文章n
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 73, in catagory
+    Reuarticle = Article.objects.filter(id=paths[4].split('-')[0])
+IndexError: list index out of range
+2019-11-01 17:16:33,204 [Thread-2:688] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/公告/1-PYTHON的第一篇文章n
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 73, in catagory
+    Reuarticle = Article.objects.filter(id=paths[4].split('-')[0])
+IndexError: list index out of range
+2019-11-01 17:16:33,280 [Thread-3:2596] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/公告/1-PYTHON的第一篇文章n
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 73, in catagory
+    Reuarticle = Article.objects.filter(id=paths[4].split('-')[0])
+IndexError: list index out of range
+2019-11-01 17:16:33,506 [Thread-3:2596] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/公告/1-PYTHON的第一篇文章n
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 73, in catagory
+    Reuarticle = Article.objects.filter(id=paths[4].split('-')[0])
+IndexError: list index out of range
+2019-11-01 17:17:00,222 [Thread-1:6964] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/公告/1-PYTHON的第一篇文章n
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 73, in catagory
+    Reuarticle = Article.objects.filter(id=paths[4].split('-')[0])
+IndexError: list index out of range
+2019-11-01 17:17:14,745 [Thread-1:6964] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/公告/1-PYTHON的第一篇文章n
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 73, in catagory
+    Reuarticle = Article.objects.filter(id=paths[4].split('-')[0])
+IndexError: list index out of range
+2019-11-01 17:17:15,788 [Thread-1:1804] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/公告/1-PYTHON的第一篇文章n
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 73, in catagory
+    Reuarticle = Article.objects.filter(id=paths[4].split('-')[0])
+IndexError: list index out of range
+2019-11-01 17:17:25,571 [Thread-1:3724] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/公告/1-PYTHON的第一篇文章n
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 74, in catagory
+    content = paths[4].split('-')[0]
+IndexError: list index out of range
+2019-11-01 17:17:41,418 [Thread-1:6880] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/公告/1-PYTHON的第一篇文章n
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 74, in catagory
+    content = paths[3].split('-')[0]
+IndexError: list index out of range
+2019-11-01 17:17:52,346 [Thread-1:1652] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/公告/1-PYTHON的第一篇文章n
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 74, in catagory
+    content = paths[3]
+IndexError: list index out of range
+2019-11-01 17:17:53,262 [Thread-1:1652] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/公告/1-PYTHON的第一篇文章n
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 74, in catagory
+    content = paths[3]
+IndexError: list index out of range
+2019-11-01 17:17:53,518 [Thread-1:1652] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/公告/1-PYTHON的第一篇文章n
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 74, in catagory
+    content = paths[3]
+IndexError: list index out of range
+2019-11-01 17:17:57,806 [Thread-1:1652] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/公告/1-PYTHON的第一篇文章n
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 74, in catagory
+    content = paths[3]
+IndexError: list index out of range
+2019-11-01 17:18:42,793 [Thread-1:4760] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /catagory/公告/1-PYTHON的第一篇文章n
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 74, in catagory
+    nick = articles.user.first_name if articles.user.first_name else articles.user.username
+AttributeError: 'QuerySet' object has no attribute 'user'
+2019-11-01 17:40:05,549 [Thread-4:7284] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-01 17:41:28,351 [Thread-7:7112] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-01 17:42:13,484 [Thread-11:6184] [django.request:228] [log:log_response] [WARNING]- Bad Request: /catagory/闲聊/2-文章二
+2019-11-01 17:55:47,689 [Thread-32:756] [django.request:228] [log:log_response] [WARNING]- Bad Request: /
+2019-11-01 17:55:48,322 [Thread-33:7856] [django.request:228] [log:log_response] [WARNING]- Bad Request: /favicon.ico
+2019-11-01 17:56:09,007 [Thread-4:6880] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-01 20:38:21,594 [Thread-2:6508] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-01 20:38:27,320 [Thread-4:7052] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-01 20:39:46,339 [Thread-1:6728] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 67, in index
+    return render(request, 'index.html',{'ArticleList': getArticle(), 'LinkList': getNav(request.path)})
+  File "E:\workspace\blog_project\Blog\views.py", line 33, in getNav
+    'active': 'mdui-color-green-200' if catagory.name == pathlist[1] else ''
+IndexError: list index out of range
+2019-11-01 20:41:30,763 [Thread-1:2852] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 68, in index
+    return render(request, 'index.html',{'ArticleList': getArticle(), 'LinkList': getNav(request.path)})
+  File "E:\workspace\blog_project\Blog\views.py", line 18, in getNav
+    cata = pathlist[1] if len(pathlist)>=1 else ''
+IndexError: list index out of range
+2019-11-01 20:41:41,593 [Thread-1:2852] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\blog_project\Blog\views.py", line 68, in index
+    return render(request, 'index.html',{'ArticleList': getArticle(), 'LinkList': getNav(request.path)})
+  File "E:\workspace\blog_project\Blog\views.py", line 18, in getNav
+    cata = pathlist[1] if len(pathlist)>=1 else ''
+IndexError: list index out of range
+2019-11-01 20:41:41,927 [Thread-1:2852] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-01 20:42:27,068 [Thread-4:5680] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-01 20:43:08,564 [Thread-8:3392] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-01 20:48:07,383 [Thread-25:7120] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-01 20:58:20,593 [Thread-38:3024] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-01 20:58:20,721 [Thread-38:3024] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-01 21:03:36,225 [Thread-42:6956] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-01 21:17:29,453 [Thread-49:6712] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-01 21:17:32,671 [Thread-48:5848] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-01 22:45:07,986 [Thread-55:6788] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-02 17:59:59,057 [Thread-1:4728] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-02 19:59:36,029 [Thread-8:6568] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-02 20:00:39,377 [Thread-20:7096] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-02 20:01:13,688 [Thread-51:3444] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-02 20:01:29,887 [Thread-58:2700] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-02 20:02:56,367 [Thread-65:7052] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
