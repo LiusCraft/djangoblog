@@ -16,10 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, re_path
 
-from Blog.views import index, catagory
+from Blog.views import index, catagory, frpManger
 
 urlpatterns = [
     re_path('admin/', admin.site.urls),
     re_path(r'^$', index, name='index'),
-    re_path(r'^catagory/', catagory, name='catagory')
+    re_path(r'^catagory/', catagory, name='catagory'),
+    re_path(r'^frps$', frpManger, name='frps')
 ]

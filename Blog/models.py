@@ -78,3 +78,19 @@ class Link(models.Model):
         return self.title
     def __str__(self):
         return self.title
+
+class FrpsList(models.Model):
+    token = models.CharField(max_length=30, verbose_name='线路密匙')
+    name = models.CharField(max_length=30, verbose_name='线路名称')
+    data = models.TextField(verbose_name='线路信息')
+    message = models.CharField(max_length=255, verbose_name='线路公告')
+
+    class Meta:
+        verbose_name = 'Frp服务线路'
+        verbose_name_plural = verbose_name
+
+    def __unicode__(self):
+        return self.name
+    def __str__(self):
+        return self.name
+

@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import logging
-from django.shortcuts import render
+import json
+from django.shortcuts import render, HttpResponse
 from django.conf import settings
 from .models import *
 
@@ -90,3 +91,24 @@ def catagory(request):
             'tags': tags
         }
     return render(request, 'index.html', {'content': content, 'ArticleList': getArticle(paths[1]),'LinkList': getNav(request.path)})
+
+def frpManger(request):
+    Result = {'Code': 0, 'Message': '请给TOKEN参数!'}
+    if request.GET:
+        frplist = []
+        ReuFrplist = FrpsList.objects.filter(token=request.GET['token'])
+        for frp in ReuFrplist:
+            frplist.append({
+                'Id': frp.id,
+                'name': frp.name,
+                'data': frp.data,
+                'message': frp.message
+            })
+        if len(frplist):
+            Result['Code'] = 1
+            Result['Message'] = "获取成功!"
+            Result['Data'] = frplist
+        else:
+            Result['Code'] = 0
+            Result['Message'] = "获取失败,此TOKEN没有Frp服务!"
+    return HttpResponse(json.dumps(Result))
