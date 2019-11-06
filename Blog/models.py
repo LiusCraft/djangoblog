@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from django.db import models
 from django.contrib.auth.models import AbstractUser
 
@@ -14,6 +15,8 @@ class User(AbstractUser):
         verbose_name_plural = verbose_name
         ordering = ['-id']
 
+    def __unicode__(self):
+        return self.username
     def __str__(self):
         return self.username
 
@@ -25,6 +28,8 @@ class Tag(models.Model):
         verbose_name = '标签'
         verbose_name_plural = verbose_name
 
+    def __unicode__(self):
+        return self.name
     def __str__(self):
         return self.name
 
@@ -38,6 +43,8 @@ class Catagory(models.Model):
         verbose_name = '分类'
         verbose_name_plural = verbose_name
 
+    def __unicode__(self):
+        return self.name
     def __str__(self):
         return self.name
 
@@ -53,6 +60,8 @@ class Article(models.Model):
         verbose_name = '文章'
         verbose_name_plural = verbose_name
 
+    def __unicode__(self):
+        return self.title
     def __str__(self):
         return self.title
 
@@ -65,5 +74,7 @@ class Link(models.Model):
         verbose_name = '链接'
         verbose_name_plural = verbose_name
 
+    def __unicode__(self):
+        return self.title
     def __str__(self):
         return self.title

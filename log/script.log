@@ -1025,3 +1025,5 @@ IndexError: list index out of range
 2019-11-02 20:01:13,688 [Thread-51:3444] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
 2019-11-02 20:01:29,887 [Thread-58:2700] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
 2019-11-02 20:02:56,367 [Thread-65:7052] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-04 17:39:57,642 [Thread-1:7740] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-06 16:44:46,773 [Thread-1:1504] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
