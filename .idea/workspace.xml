@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b9b7b39f-6e2f-4776-912c-0e51c3690001" name="默认" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/admin.py" afterPath="$PROJECT_DIR$/Blog/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/models.py" afterPath="$PROJECT_DIR$/Blog/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/views.py" afterPath="$PROJECT_DIR$/Blog/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog_project/urls.py" afterPath="$PROJECT_DIR$/blog_project/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/script.log" afterPath="$PROJECT_DIR$/log/script.log" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -535,7 +530,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573038286680</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="添加frp服务">
+      <created>1573041511577</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1573041511577</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -584,7 +586,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新" />
+    <MESSAGE value="添加frp服务" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加frp服务" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
