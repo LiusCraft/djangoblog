@@ -1168,3 +1168,4 @@ Traceback (most recent call last):
     raise MultiValueDictKeyError(key)
 django.utils.datastructures.MultiValueDictKeyError: 'token'
 2019-11-07 15:58:05,714 [Thread-1:7020] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-11-07 16:55:21,525 [Thread-51:8880] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico

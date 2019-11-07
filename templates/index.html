@@ -31,9 +31,8 @@
     {% if content %}
         <div id="content" class="">
             <div class="mdui-card mdui-m-t-2 mdui-shadow-6">
-                <!-- 卡片头部，包含头像、标题、副标题 -->
                 <div class="mdui-card-header">
-                    <img class="mdui-card-header-avatar" src="{% static ''%}{{ content.header }}"/>
+                    <img class="mdui-card-header-avatar" src="/{{ content.header }}"/>
                     <div class="mdui-card-header-title">用户: {{ content.nick }}</div>
                     <div class="mdui-card-header-subtitle">邮箱: {{ content.email }}</div>
                     <br>
@@ -62,7 +61,7 @@
                     <div class="mdui-card mdui-m-t-2 mdui-hoverable mdui-ripple">
                         <!-- 卡片头部，包含头像、标题、副标题 -->
                         <div class="mdui-card-header">
-                            <img class="mdui-card-header-avatar" src="{% static ''%}{{ article.header }}"/>
+                            <img class="mdui-card-header-avatar" src="/{{ article.header }}"/>
                             <div class="mdui-card-header-title">用户: {{ article.nick }}</div>
                             <div class="mdui-card-header-subtitle">邮箱: {{ article.email }}</div>
                             <br>
