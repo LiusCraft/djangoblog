@@ -14,7 +14,9 @@ git clone https://github.com/LiusCraft/djangoblog.git
 ```pip3 install mysqlclient```
 
 # 数据库配置
+
 我们在项目的 settings.py 文件中找到 DATABASES 配置项，将其信息修改为：
+
 ```python
 DATABASES = {
     'default': {
@@ -27,14 +29,19 @@ DATABASES = {
     }
 }
 ```
+
 上面包含数据库名称和用户的信息，它们与 MySQL 中对应数据库和用户的设置相同。Django 根据这一设置，与 MySQL 中相应的数据库和用户连接起来。
 
 # 构建表结构
+
 ```
 $ python manage.py migrate   # 创建表结构
 $ python manage.py makemigrations  # 让 Django 知道我们在我们的模型有一些变更
-$ python manage.py migrate   # 创建表结构```
+$ python manage.py migrate   # 创建表结构
+```
 
 # 运行Django项目
+
 ```python3 manage.py runserver 0.0.0.0:80```
+
 这里注意要进入放有manage.py的文件夹下，然后运行上面这条指令，后面跟上的 IP:PORT 可自己根据实际情况来定
