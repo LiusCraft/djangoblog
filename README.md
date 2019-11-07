@@ -1,7 +1,9 @@
 # Django Blog 源代码使用方法
 首先请先将本项目下载到自己的计算机中
 若装有Git可直接使用以下指令:
-git clone https://github.com/LiusCraft/djangoblog.git
+
+```git clone https://github.com/LiusCraft/djangoblog.git```
+
 若没有安装可直接下载成zip文件
 
 # 安装模块
