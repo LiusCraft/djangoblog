@@ -30,7 +30,8 @@ ALLOWED_HOSTS = [
     's.ilsz.top',
     '127.0.0.1',
     '111.67.196.126',
-    'a.mcstory.cc'
+    'www.ilsz.top',
+    'ilsz.top'
 ]
 
 
