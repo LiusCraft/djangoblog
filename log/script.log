@@ -1167,3 +1167,4 @@ Traceback (most recent call last):
   File "E:\workspace\blog_project_venv\lib\site-packages\django\utils\datastructures.py", line 80, in __getitem__
     raise MultiValueDictKeyError(key)
 django.utils.datastructures.MultiValueDictKeyError: 'token'
+2019-11-07 15:58:05,714 [Thread-1:7020] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
