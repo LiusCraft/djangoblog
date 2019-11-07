@@ -2,7 +2,11 @@
 <!DOCTYPE html>
 <html lang="zh">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
     <title>{{ SITE_NAME }}</title>
     <link href="{% static 'css/mdui.css' %} " rel="stylesheet">
 </head>
@@ -14,7 +18,7 @@
         <a href="javascript:;" class="mdui-typo-title">{{ SITE_DESC }}</a>
         <div class="mdui-toolbar-spacer"></div>
     </div>
-    <div class="mdui-tab mdui-color-green-100 mdui-tab-centered" mdui-tab>
+    <div class="mdui-tab mdui-color-green-100 mdui-tab-centered mdui-tab-scrollable" mdui-tab>
         {% for link in LinkList %}
             <a href="{{ link.href }}" class="mdui-ripple mdui-ripple-white {{ link.active }}">{{ link.title }}</a>
         {% endfor %}
@@ -26,14 +30,14 @@
     {% endif %}
     {% if content %}
         <div id="content" class="">
-            <div class="mdui-card mdui-m-a-2 mdui-shadow-6">
+            <div class="mdui-card mdui-m-t-2 mdui-shadow-6">
                 <!-- 卡片头部，包含头像、标题、副标题 -->
                 <div class="mdui-card-header">
                     <img class="mdui-card-header-avatar" src="{% static ''%}{{ content.header }}"/>
                     <div class="mdui-card-header-title">用户: {{ content.nick }}</div>
                     <div class="mdui-card-header-subtitle">邮箱: {{ content.email }}</div>
                     <br>
-                    <div class="mdui-chip mdui-m-r-1">
+                    <div class="mdui-chip mdui-m-r-1 mdui-color-green-300">
                         <span class="mdui-chip-title">{{ content.tags }}</span>
                     </div>
                     <strong>[{{ content.catagory }}]{{ content.title }}</strong>
@@ -45,7 +49,7 @@
                 <!-- 卡片的内容 -->
                 <div class="mdui-card-content mdui-typo mdui-m-a-1">
                     {% autoescape off %}
-                    {{ content.text }}
+                        {{ content.text }}
                     {% endautoescape %}
                 </div>
             </div>
@@ -55,14 +59,14 @@
         {% for article in ArticleList %}
             {% if article.id != content.id %}
                 <a href="/catagory/{{ article.catagory }}/{{ article.id }}-{{ article.title }}" style="text-decoration: none;">
-                    <div class="mdui-card mdui-m-a-2 mdui-hoverable mdui-ripple">
+                    <div class="mdui-card mdui-m-t-2 mdui-hoverable mdui-ripple">
                         <!-- 卡片头部，包含头像、标题、副标题 -->
                         <div class="mdui-card-header">
                             <img class="mdui-card-header-avatar" src="{% static ''%}{{ article.header }}"/>
                             <div class="mdui-card-header-title">用户: {{ article.nick }}</div>
                             <div class="mdui-card-header-subtitle">邮箱: {{ article.email }}</div>
                             <br>
-                            <div class="mdui-chip mdui-m-r-1">
+                            <div class="mdui-chip mdui-m-r-1 mdui-color-green-200">
                                 <span class="mdui-chip-title">{{ article.tags }}</span>
                             </div>
                             <strong>[{{ article.catagory }}]{{ article.title }}</strong>
@@ -81,7 +85,25 @@
         {% endfor %}
     </div>
 </div>
+<div class="mdui-m-t-4"></div>
 {{ paths }}
+{% if content %}
+    <div class="mdui-fab-wrapper" id="exampleFab">
+        <button class="mdui-fab mdui-ripple mdui-color-green-600" onclick="javascript:history.back(-1);">
+            <!-- 默认显示的图标 -->
+            <i class="mdui-icon material-icons">arrow_back</i>
+
+            <!-- 在拨号菜单开始打开时，平滑切换到该图标，若不需要切换图标，则可以省略该元素 -->
+            <i class="mdui-icon mdui-fab-opened material-icons">arrow_back</i>
+        </button>
+        <div class="mdui-fab-dial">
+            <button class="mdui-fab mdui-fab-mini mdui-ripple mdui-color-pink"><i class="mdui-icon material-icons">backup</i></button>
+            <button class="mdui-fab mdui-fab-mini mdui-ripple mdui-color-red"><i class="mdui-icon material-icons">bookmark</i></button>
+            <button class="mdui-fab mdui-fab-mini mdui-ripple mdui-color-orange"><i class="mdui-icon material-icons">access_alarms</i></button>
+            <button class="mdui-fab mdui-fab-mini mdui-ripple mdui-color-blue"><i class="mdui-icon material-icons">touch_app</i></button>
+        </div>
+    </div>
+{% endif %}
 <script src="{% static 'js/mdui.js' %}"></script>
 </body>
 </html>
