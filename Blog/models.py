@@ -55,6 +55,8 @@ class Article(models.Model):
     content = models.TextField('文章内容')
     catagory = models.ForeignKey(Catagory, on_delete=models.CASCADE, verbose_name='分类')
     tags = models.ForeignKey(Tag, on_delete=models.CASCADE, verbose_name='标签')
+    t_up = models.IntegerField(default=0, verbose_name='守护次数')
+    t_down = models.IntegerField(default=0, verbose_name='踩踏次数')
 
     class Meta:
         verbose_name = '文章'
@@ -64,6 +66,22 @@ class Article(models.Model):
         return self.title
     def __str__(self):
         return self.title
+
+class Comment(models.Model):
+    nick = models.CharField(max_length=10, verbose_name='昵称')
+    email = models.CharField(max_length=20, verbose_name='邮箱')
+    content = models.CharField(max_length=255, verbose_name='评论内容')
+    onlyauthor = models.BooleanField(default=False, verbose_name='仅作者可见')
+    articleid = models.IntegerField(default=0, verbose_name='文章ID')
+
+    class Meta:
+        verbose_name = '评论'
+        verbose_name_plural = verbose_name
+
+    def __unicode__(self):
+        return self.content
+    def __str__(self):
+        return self.content
 
 class Link(models.Model):
     title = models.CharField(max_length=10, verbose_name='链接标题')

@@ -72,8 +72,17 @@ def index(request):
 def catagory(request):
     paths = request.path.split('/')[1:]
     content = {}
+    commentList = []
     if len(paths)==3:
         articles = Article.objects.filter(id=paths[2].split('-')[0])[0]
+        ReuComment = Comment.objects.filter(articleid=articles.id).order_by('-id')
+        for comment in ReuComment:
+            if not comment.onlyauthor:
+                commentList.append({
+                    'nick': comment.nick,
+                    'email': comment.email,
+                    'content': comment.content
+                })
         nick = articles.user.first_name if articles.user.first_name else articles.user.username
         email = articles.user.email if articles.user.email else '还没有设置邮箱'
         header = articles.user.avatar
@@ -88,9 +97,46 @@ def catagory(request):
             'desc': articles.desc,
             'text': articles.content,
             'catagory': catagory,
-            'tags': tags
+            'tags': tags,
+            't_up': articles.t_up,
+            't_down': articles.t_down
         }
-    return render(request, 'index.html', {'content': content, 'ArticleList': getArticle(paths[1]),'LinkList': getNav(request.path)})
+    return render(request, 'index.html', {'content': content, 'CommentList': commentList, 'ArticleList': getArticle(paths[1]),'LinkList': getNav(request.path)})
+
+def comment(request):
+    Result = {'Code': 0, 'Message': '参数无效'}
+    if request.GET['type'] in 'addADD':
+        if request.POST:
+            onlyauthor = request.POST['onlyauthor']
+            email = request.POST['email']
+            nickname = request.POST['nickname']
+            content = request.POST['content']
+            articleid = request.POST['articleid']
+            comments = Comment(
+                nick=nickname,
+                email=email,
+                content=content,
+                onlyauthor=onlyauthor,
+                articleid=articleid
+            )
+            comments.save()
+            Result['Code'] = 1
+            Result['Message'] = "添加成功!"
+    elif request.GET['type'] in "thumbTHUMB":
+        if request.POST:
+            thumb = int(request.POST['thumb'])
+            articleid = request.POST['articleid']
+            ReuArticle = Article.objects.get(id=articleid)
+            if thumb:
+                ReuArticle.t_up = ReuArticle.t_up+1
+                Result['Message'] = "守护成功!"
+            else:
+                ReuArticle.t_down = ReuArticle.t_down+1
+                Result['Message'] = "踩踏成功!"
+            ReuArticle.save()
+            Result['Code'] = 1
+
+    return HttpResponse(json.dumps(Result))
 
 def frpManger(request):
     Result = {'Code': 0, 'Message': '请给TOKEN参数!'}

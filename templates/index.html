@@ -8,7 +8,7 @@
     <meta name="renderer" content="webkit">
     <meta http-equiv="Cache-Control" content="no-siteapp"/>
     <title>{{ SITE_NAME }}</title>
-    <link href="{% static 'css/mdui.css' %} " rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.loli.net/ajax/libs/mdui/0.4.3/css/mdui.min.css">
 </head>
 <body class="mdui-theme-primary-green mdui-theme-accent-green">
 <div class="mdui-appbar">
@@ -51,6 +51,35 @@
                         {{ content.text }}
                     {% endautoescape %}
                 </div>
+                <div class="mdui-text-center mdui-m-b-2">
+                    <div class="mdui-chip mdui-color-red-400">
+                        <span class="mdui-chip-icon mdui-color-red-600"><i class="mdui-icon material-icons">thumb_down</i></span>
+                        <span onclick="thumb(0)" class="mdui-chip-title">践踏 {{ content.t_down }} 次文章</span>
+                    </div>
+                    <div class="mdui-chip mdui-color-green-600">
+                        <span class="mdui-chip-icon mdui-color-green-700"><i class="mdui-icon material-icons">thumb_up</i></span>
+                        <span onclick="thumb(1)" class="mdui-chip-title">守护 {{ content.t_up }} 次文章</span>
+                    </div>
+
+                </div>
+                <button class="mdui-btn mdui-btn-raised mdui-btn-block mdui-ripple mdui-color-blue-grey" onclick="postcomment('1')"> 评 论 此 文 章 </button>
+                <ul class="mdui-list">
+                    {% if CommentList %}
+                        {% for comment in CommentList %}
+                            <li class="mdui-list-item mdui-ripple">
+                                <i class="mdui-list-item-avatar mdui-icon material-icons">message</i>
+                                <div class="mdui-list-item-content">
+                                    <div class="mdui-list-item-title">{{ comment.nick }}</div>
+                                    <div class="mdui-list-item-text mdui-list-item-one-line"><span class="mdui-text-color-theme-text">说: </span>{{ comment.content }}</div>
+                                </div>
+                                <button class="mdui-btn" onclick="postcomment('{{ comment.nick }}')">@TA回复</button>
+                            </li>
+                            <li class="mdui-divider-inset mdui-m-y-0"></li>
+                        {% endfor %}
+                    {% else %}
+                        <h3 class="mdui-text-center">没有公开评论</h3>
+                    {% endif %}
+                </ul>
             </div>
         </div>
     {% endif %}
@@ -103,6 +132,57 @@
         </div>
     </div>
 {% endif %}
-<script src="{% static 'js/mdui.js' %}"></script>
+<!--<script src="//cdnjs.loli.net/ajax/libs/mdui/0.4.3/js/mdui.min.js"></script>-->
+<script src="{% static 'js/mdui.js'%}"></script>
+<script>
+    var $$ = mdui.JQ;
+    function thumb(id) { //1或0 1=up 0=down
+        $$.ajax({
+            method: 'POST',
+            url: '/comment?type=thumb',
+            dataType: 'json',
+            data:{
+                csrfmiddlewaretoken: '{{ csrf_token }}',
+                articleid: '{{ content.id }}',
+                thumb: id
+            },
+            success: function (data) {
+                if(data.Code)
+                    mdui.snackbar(data.Message)
+            }
+        })
+    }
+    function postcomment(id) {
+        mdui.dialog({
+            title: '发表评论',
+            content: '<div class="mdui-textfield"><i class="mdui-icon material-icons">email</i><input id="email" class="mdui-textfield-input" type="email" placeholder="Email"/> </div><div class="mdui-textfield"> <i class="mdui-icon material-icons">account_circle</i> <label class="mdui-textfield-label">昵称:</label> <input id="nickname" class="mdui-textfield-input" type="text"/></div><div class="mdui-textfield mdui-textfield-floating-label"> <i class="mdui-icon material-icons">textsms</i> <label class="mdui-textfield-label">评论内容</label> <textarea id="contents" class="mdui-textfield-input">@'+id+'</textarea> </div>',
+            buttons: [
+                {
+                    text: '取消'
+                },
+                {
+                    text: '确认',
+                    onClick: function(inst){
+                        $$.ajax({
+                            method: 'POST',
+                            url: '/comment?type=add',
+                            data: {
+                                csrfmiddlewaretoken: '{{ csrf_token }}',
+                                onlyauthor: 0,
+                                email: $$('#email').val(),
+                                nickname: $$('#nickname').val(),
+                                content: $$('#contents').val(),
+                                articleid: {{ content.id }}
+                            },
+                            success: function (data) {
+                                console.log(data);
+                            }
+                        });
+                    }
+                }
+            ]
+        });
+    }
+</script>
 </body>
 </html>
