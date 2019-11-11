@@ -62,7 +62,7 @@
                     </div>
 
                 </div>
-                <button class="mdui-btn mdui-btn-raised mdui-btn-block mdui-ripple mdui-color-blue-grey" onclick="postcomment('1')"> 评 论 此 文 章 </button>
+                <button class="mdui-btn mdui-btn-raised mdui-btn-block mdui-ripple mdui-color-blue-grey" onclick="postcomment('{{ content.nick }}')"> 评 论 此 文 章 </button>
                 <ul class="mdui-list">
                     {% if CommentList %}
                         {% for comment in CommentList %}
@@ -147,15 +147,18 @@
                 thumb: id
             },
             success: function (data) {
-                if(data.Code)
-                    mdui.snackbar(data.Message)
+                mdui.alert(data.Message)
+                if(data.Code){
+                    window.location.reload()
+                }
+
             }
         })
     }
     function postcomment(id) {
         mdui.dialog({
             title: '发表评论',
-            content: '<div class="mdui-textfield"><i class="mdui-icon material-icons">email</i><input id="email" class="mdui-textfield-input" type="email" placeholder="Email"/> </div><div class="mdui-textfield"> <i class="mdui-icon material-icons">account_circle</i> <label class="mdui-textfield-label">昵称:</label> <input id="nickname" class="mdui-textfield-input" type="text"/></div><div class="mdui-textfield mdui-textfield-floating-label"> <i class="mdui-icon material-icons">textsms</i> <label class="mdui-textfield-label">评论内容</label> <textarea id="contents" class="mdui-textfield-input">@'+id+'</textarea> </div>',
+            content: '<div class="mdui-textfield"><i class="mdui-icon material-icons">email</i><input id="email" class="mdui-textfield-input" type="email" placeholder="Email"/> </div><div class="mdui-textfield"> <i class="mdui-icon material-icons">account_circle</i> <label class="mdui-textfield-label">昵称:</label> <input id="nickname" class="mdui-textfield-input" type="text"/></div><div class="mdui-textfield"> <i class="mdui-icon material-icons">textsms</i> <label class="mdui-textfield-label">评论内容</label> <textarea id="contents" class="mdui-textfield-input">@'+id+' </textarea> </div>',
             buttons: [
                 {
                     text: '取消'
@@ -166,6 +169,7 @@
                         $$.ajax({
                             method: 'POST',
                             url: '/comment?type=add',
+                            dataType: 'json',
                             data: {
                                 csrfmiddlewaretoken: '{{ csrf_token }}',
                                 onlyauthor: 0,
@@ -175,7 +179,10 @@
                                 articleid: {{ content.id }}
                             },
                             success: function (data) {
-                                console.log(data);
+                                mdui.alert(data.Message)
+                                if(data.Code){
+                                    window.location.reload()
+                                }
                             }
                         });
                     }
